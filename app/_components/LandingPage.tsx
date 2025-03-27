@@ -183,7 +183,7 @@ const LandingPage = () => {
         {/* red divs */}
         <div className="absolute inset-0 ">
           {/* Position for the contact button and circles */}
-          <motion.div variants={containerVariants} initial="hidden" animate="visible" className="absolute right-[30%] md:right-[15%] top-[200%] lg:top-[150%] -translate-y-1/2">
+          <motion.div variants={containerVariants} initial="hidden" animate="visible" className="absolute right-[30%] md:right-[15%] top-[200%] lg:top-[70vh] -translate-y-1/2">
             {/* Concentric circles with dynamically calculated sizes */}
             <motion.div
               variants={ballVariants}
