@@ -161,13 +161,13 @@ const LandingPage = () => {
     <div className="bg-black min-h-screen">
       <div className="relative overflow-x-clip p-5 lg:p-10">
         <motion.div variants={containerTextVariants} initial="hidden" animate="visible" className="flex flex-col lg:mt-30 justify-center h-full max-w-3xl">
-          <motion.h1 variants={textVariants}  className="text-slate-300 text-3xl sm:text-4xl md:text-5xl lg:text-8xl  leading-tight mb-6">
+          <motion.h1 variants={textVariants}  className="text-slate-300 text-3xl sm:text-4xl md:text-5xl lg:text-8xl">
             The hardware 
           </motion.h1>
-          <motion.h1 variants={textVariants} className="text-slate-300 text-3xl sm:text-4xl md:text-5xl lg:text-8xl  leading-tight mb-6">
+          <motion.h1 variants={textVariants} className="text-slate-300 text-3xl sm:text-4xl md:text-5xl lg:text-8xl">
             which helps you 
           </motion.h1>
-          <motion.h1 variants={textVariants} className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-8xl  leading-tight mb-6">
+          <motion.h1 variants={textVariants} className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-8xl mb-6">
             Disconnect
           </motion.h1>
           <motion.p  variants={textVariants} className="text-gray-600 text-base sm:text-lg md:text-xl">
